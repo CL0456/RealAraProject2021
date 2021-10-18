@@ -1,0 +1,43 @@
+body { margin:0; padding:0; }
+ 
+
+.header { 
+    height:100px;
+    margin-bottom:15px;
+    background-color:burlywood;
+}
+
+
+
+.content {
+    width:900px;
+    height:450px;
+    background-color: burlywood;
+    float:left;
+    border: 3px, black;
+}
+.sidebar {
+    width:400px;
+    height:450px;
+    background-color:burlywood;
+    float:right;
+    border: solid,3px,black;
+}
+.footer {
+    height: 230px;
+    margin-top:15px;
+    background-color:burlywood;
+}
+.clear {
+    clear:both;
+}
+
+
+select#trip {
+	width: 100%;
+	padding: 16px 20px;
+	border: solid,black;
+	border-color: black;
+	border-radius: 4px;
+    background-color: #f1f1f1;  
+}

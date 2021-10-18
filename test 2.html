@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="test 2.css">
+		<script src="https://kit.fontawesome.com/2144b355ab.js" crossorigin="anonymous"></script>
+		<script src="test2.js"></script>
+    </head>
+    <body>
+ 
+        <div class="wrap">
+            <div class="header">
+               <h1>Location:</h1>
+				<nav>
+					
+				</nav>
+            </div>
+         
+            <div class="content">
+				<fieldset id="locations_added">
+				<h2>Plan your Trip</h2>
+					<div id="addlocationToList">
+						<h3>Trip Itineary:</h3>
+						<br>
+					
+						<select id="select-trip">
+							
+						</select>
+						<button id="add_button">Add to List:</button>
+						<button id="redo_button">Redo</button>
+						<button id="closePage">Exit</button>
+					<fieldset class="location_list">
+
+						<h2>Locations:</h2>
+							<ul id="locations"></ul>
+
+					</fieldset>
+						<br>
+							
+							<button id="refresh_button">Refresh</button>
+							<button id="load_trip">Load Trip</button>
+							<button id ='save_trip'>Save Trip</button></div>
+							<button id ='distances_calc'>Calculate Distance</button></div>
+				
+            </div>
+             
+            <div class="sidebar">
+				<table class="panel">
+					<form name="Calculator"></form>
+					<tbody>
+						<h2>Trip Calculator:</h2>
+						<tr>
+						<td>Trip Distance (Km)</td><td>	<input type="text" name="tripdistance" value="500" class="inhalf" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+						</td>
+					</tr>
+					<tr>
+						<td>Gas/Fuel Price(Liters)</td><td>		<input type="text" name="gasprice" value="3" class="inhalf indollar" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button type="button" id="calculations">Calculate</button>
+						</td>
+					</tr>
+					</tbody>
+					
+					
+				</tbody></table>
+            </div>
+             
+            <div class="clear"></div>
+             
+            <div class="footer">
+				<div id="visit">
+					<fieldset id="base_data">
+						<legend>Trip Summary:</legend>
+						<p><label for="visit_rating">Distance: </label><input id="visit_rating" type="number" min="1" max="5" step="1" value="5"></p>
+						<p><label for="visit_spend">Fuel:</label><input id="visit_spend" type="number" min="0" max="100" step="0.01" value="15"></p>
+						<p><label for="visit_spend">Total Cost:</label><input id="visit_spend" type="number" min="0" max="100" step="0.01" value="15"></p>
+
+					</fieldset>
+            </div>
+			
+        </div>
+         
+        </body>
+        </html>
+
+</html>
